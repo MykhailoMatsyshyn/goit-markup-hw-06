@@ -39,10 +39,6 @@ main {
   flex-grow: 1;
 }
 
-section {
-  padding: 120px 0;
-}
-
 textarea {
   display: block;
 }
