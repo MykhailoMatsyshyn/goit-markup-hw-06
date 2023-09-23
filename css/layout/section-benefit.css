@@ -89,5 +89,9 @@
     line-height: 1.2;
     letter-spacing: 0.02;
   }
+
+  .about-item:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 /* !============================ /DESKTOP ============================ */
