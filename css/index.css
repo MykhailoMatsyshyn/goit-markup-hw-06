@@ -13,3 +13,5 @@
 @import './layout/section-hero.css';
 @import './layout/section-team.css';
 @import './layout/section-portfolio.css';
+@import './layout/backdrop.css';
+@import './layout/modal-window.css';
