@@ -16,69 +16,6 @@
 
 /* ::::::::::: PORTFOLIO ::::::::::: */
 
-.portfolio {
-  background-color: #ffffff;
-}
-
-.portfolio-items {
-  display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
-  flex-wrap: wrap;
-}
-
-.portfolio-item {
-  width: calc((100% - 2 * 24px) / 3);
-  cursor: pointer;
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-item-content {
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  padding: 32px 16px;
-}
-
-.portfolio-item-title {
-  margin-bottom: 8px;
-}
-
-.box {
-  position: relative;
-  overflow: hidden;
-  width: 360px;
-  height: 300px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-  padding: 40px 32px;
-
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-item:hover .overlay {
-  transform: translateY(0%);
-}
 /* ::::::::::: /PORTFOLIO ::::::::::: */
 
 /* :::::::::::::: BACKDROP :::::::::::::: */
