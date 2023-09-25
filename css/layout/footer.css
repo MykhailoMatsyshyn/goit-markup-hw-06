@@ -78,12 +78,14 @@
 }
 
 /* ?=============== FORM =============== */
-.subscribe-container .footer-text {
+
+.footer-text-subscribe {
   color: #fff;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .subscribe-form {
@@ -162,10 +164,6 @@
     margin-bottom: 0;
   }
 
-  .subscribe-container {
-    justify-content: flex-start;
-  }
-
   .footer-logo {
     justify-content: flex-start;
   }
@@ -182,8 +180,8 @@
     gap: 24px;
   }
 
-  .subscribe-container .footer-text {
-    justify-content: flex-start;
+  .footer-text-subscribe {
+    text-align: left;
   }
   /* ?=============== /FORM =============== */
 }
@@ -210,6 +208,14 @@
 
   .social-media-container {
     margin-right: 80px;
+  }
+
+  .footer-social-links {
+    margin-bottom: 0;
+  }
+
+  .subscribe-form-input {
+    opacity: 1;
   }
 }
 /* !============================ /DESKTOP  ============================ */

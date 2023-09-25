@@ -14,20 +14,19 @@
   text-align: center;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-section {
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+  .solution-class {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/images-mobile/mobile-people-office@2x.jpg);
+      url('../../images/images-mobile/mobile-people-office@2x.jpg');
   }
 }
 
 .hero-title {
-  display: flex;
   color: #ffffff;
   text-align: center;
   font-size: 36px;
@@ -80,15 +79,15 @@
     text-align: center;
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-section {
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .solution-class {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../../images/images-tablet/tablet-people-office.jpg@2x.jpg);
+        url ('../../images/images-tablet/tablet-people-office.jpg@2x.jpg');
     }
   }
 
@@ -113,15 +112,15 @@
     padding-bottom: 188px;
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-section {
+  @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .solution-class {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../../images/images-desktop/desktop-people-office@2x.jpg);
+        url('../../images/images-desktop/desktop-people-office@2x.jpg');
     }
   }
 }
