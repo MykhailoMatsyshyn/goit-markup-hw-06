@@ -49,6 +49,10 @@
   .h-three-title {
     text-align: left;
   }
+
+  .about-item:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 /* !============================ /TABLET ============================ */
 
