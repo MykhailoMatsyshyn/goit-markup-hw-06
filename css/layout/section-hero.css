@@ -10,7 +10,7 @@
   background-position: center;
   background-size: cover;
   background-origin: padding-box;
-  padding-top: 128px;
+  padding-top: 72px;
   padding-bottom: 72px;
   text-align: center;
 }
@@ -78,7 +78,7 @@
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 184px;
+    padding-top: 112px;
     padding-bottom: 112px;
     text-align: center;
   }
@@ -112,7 +112,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/images-desktop/desktop-people-office.jpg);
-    padding-top: 260px;
+    padding-top: 188px;
     padding-bottom: 188px;
   }
 
