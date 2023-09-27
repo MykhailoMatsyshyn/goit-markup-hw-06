@@ -9,7 +9,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 72px;
+  background-origin: padding-box;
+  padding-top: 128px;
   padding-bottom: 72px;
   text-align: center;
 }
@@ -74,7 +75,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 112px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 184px;
     padding-bottom: 112px;
     text-align: center;
   }
@@ -108,10 +112,10 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/images-desktop/desktop-people-office.jpg);
-    padding-top: 188px;
+    padding-top: 260px;
     padding-bottom: 188px;
   }
-  
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -122,6 +126,10 @@
         ),
         url(../../images/images-desktop/desktop-people-office@2x.jpg);
     }
+  }
+
+  .hero-title {
+    margin: 0 auto 48px;
   }
 }
 /* !============================ /DESCTOP ============================ */

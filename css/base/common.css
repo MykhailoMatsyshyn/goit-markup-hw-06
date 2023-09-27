@@ -4,10 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-/* a {
-  text-decoration: none;
-} */
-
 ul,
 ol {
   list-style: none;
@@ -42,6 +38,10 @@ main {
 }
 
 textarea {
+  display: block;
+}
+
+header {
   display: block;
 }
 

@@ -70,13 +70,13 @@
   fill: #f4f4fd;
 }
 
-  .footer-logo-container {
-    margin-bottom: 72px;
-  }
+.footer-logo-container {
+  margin-bottom: 72px;
+}
 
-  .social-media-container {
-    margin-bottom: 72px;
-  }
+.social-media-container {
+  margin-bottom: 72px;
+}
 
 /* ?=============== FORM =============== */
 
@@ -165,12 +165,21 @@
 
   .footer-logo {
     justify-content: flex-start;
+    text-align: left;
   }
 
   .social-media-container .footer-text {
     max-width: 208px;
     display: block;
     text-align: left;
+  }
+
+  .footer-logo-container {
+    margin-bottom: 0;
+  }
+
+  .social-media-container {
+    margin-bottom: 0;
   }
 
   /* ?=============== FORM =============== */
